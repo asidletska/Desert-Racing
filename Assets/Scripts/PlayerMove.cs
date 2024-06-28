@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-           // player.transform.position
+           player.transform.position = Vector3.forward * movementSpeed;
         }
     }
 }
